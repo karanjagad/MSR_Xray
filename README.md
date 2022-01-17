@@ -59,6 +59,6 @@ Selected repository result after changing parameters were similar
     -   Java 11 (Maven project)
     -   Python 3.9.6 (plotly==5.1.0, pyspark==3.1.2)
 -   Validation
-    -   One can compare the above mentioned csv files with the original work, one would infer that the work is replicated.
+    -   One can compare the above output folder with the original work, the reproduciblity is clearly noticable there.
 -   Data
     -  Data replication have successfully generate the csv files listed in the output delta section, as well as a temp folder (uploaded in onedrive)containing the files required for the generation of the csv files.
