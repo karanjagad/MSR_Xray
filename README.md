@@ -42,7 +42,7 @@ Findings of replication
 
 ### Process delta:
 
-Data collected with different attributes and tried to replicate the table but due to excess time consumtion of data collection the skip repositories could not be found
+Collecting all the repositries based on above input data criteria and then Parsing the csv files under repositiory selected folder and finding the selected repositores for each dependency pair 
 
 ### Output delta:
 
@@ -60,5 +60,7 @@ Selected repository result after changing parameters were similar
     -   Python 3.9.6 (plotly==5.1.0, pyspark==3.1.2)
 -   Validation
     -   One can compare the above output folder with the original work, the reproduciblity is clearly noticable there.
+    -   One can directly run the python file under process/Repo_Selection_Count_for_DependencyPairs.py and check the desired output.
+    -   *User needs to be in /output/repositeries_selected folder before running the python code
 -   Data
     -  Data replication have successfully generate the csv files listed in the output delta section, as well as a temp folder (uploaded in onedrive)containing the files required for the generation of the csv files.
