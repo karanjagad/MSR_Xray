@@ -46,8 +46,8 @@ Collecting all the repositries based on above input data criteria and then Parsi
 
 ### Output delta:
 
-Selected repository result after changing parameters were similar 
-
+Selected repository result after changing parameters was similar for all dependency pair expcept for one pair. *org.apache.lucene_lucene-analyzers-common_org.apache.lucene_lucene-core*
+The orginal table had 27 selected repositories but the reproduced table has only 9 repositories.(Reason can be the repository does not exist or during the collection program timed out/403 Forbiden Error)
 
 ### Implementation of replication:
 
