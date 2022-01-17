@@ -18,3 +18,4 @@ for root,dirs,files in os.walk(directory):
            f.close()
           
 output_df=pd.DataFrame.from_dict(dependency_pairs,orient='index',columns=['Sel.'])
+print(output_df)
