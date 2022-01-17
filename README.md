@@ -42,11 +42,12 @@ Findings of replication
 
 ### Process delta:
 
-Collecting all the repositries based on above input data criteria and then Parsing the csv files under repositiory selected folder and finding the selected repositores for each dependency pair 
+Collecting all the repositries based on above input data criteria and then Parsing the csv files under */output/repositories_selected folder* and finding the selected repositores for each dependency pair 
 
 ### Output delta:
 
 Selected repository result after changing parameters were similar 
+
 
 ### Implementation of replication:
 
@@ -61,6 +62,6 @@ Selected repository result after changing parameters were similar
 -   Validation
     -   One can compare the above output folder with the original work, the reproduciblity is clearly noticable there.
     -   One can directly run the python file under process/Repo_Selection_Count_for_DependencyPairs.py and check the desired output.
-    -   *User needs to be in /output/repositeries_selected folder before running the python code
+    -   *User needs to be in  /output/repositeries_selected   folder before running the python code
 -   Data
     -  Data replication have successfully generate the csv files listed in the output delta section, as well as a temp folder (uploaded in onedrive)containing the files required for the generation of the csv files.
