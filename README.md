@@ -42,12 +42,13 @@ Findings of replication
 
 ### Process delta:
 
-Collecting all the repositries based on above input data criteria and then Parsing the csv files under */output/repositories_selected folder* and finding the selected repositores for each dependency pair 
+Collecting all the repositories based on above input data criteria and then Parsing the csv files under */output/repositories_selected folder* and finding the count of the selected repositories for each dependency pair 
 
 ### Output delta:
 
-Selected repository result after changing parameters was similar for all dependency pair expcept for one pair. *org.apache.lucene_lucene-analyzers-common_org.apache.lucene_lucene-core*
+Selected repository results after changing parameters was similar for all dependency pairs except for one pair which is *org.apache.lucene_lucene-analyzers-common_org.apache.lucene_lucene-core*
 The orginal table had 27 selected repositories but the reproduced table has only 9 repositories.(Reason can be the repository does not exist or during the collection program timed out/403 Forbiden Error)
+All the other 18 dependency pair showed similar selected repository count like the orginalt table
 
 ### Implementation of replication:
 
