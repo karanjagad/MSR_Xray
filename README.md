@@ -13,7 +13,7 @@ Members:
 
 -   Karan Jagad 
 -   Disha Hegde 
--   Allwin Nobel
+-   Allwin Noble
 
 Baseline study:
 ---------------------------------------------------------------------------------------
@@ -22,7 +22,7 @@ For the given Theisis  perform Data collection to reproduce table 4.7  and get s
 
 ### Input data:
 
-The java code aims at mining git repositories with following criteria
+The java code Application.java (Line66) aims at mining GitHub repositories with following criteria for the selected 19 dependency pairs
 
 -   A repository with 100 stars and 100 commits
 -   A repository with more than two contributors
@@ -33,9 +33,9 @@ The java code aims at mining git repositories with following criteria
 ### Output data:
 
 Collected repositories
-
--   Please find Temp folder which contains all the output jar files for the collected repo - https://liveunikoblenz-my.sharepoint.com/:u:/g/personal/karanjagad_live_uni-koblenz_de/EVYiwpXLGdZMjQCUmP5wM1cBWRtZMqQxLMb1EHLBDrSzQg?e=t3bupU 
--   The csv generated can be found in the output folder 
+    
+- The CSV files containing the list of selected repositories for each of the 19 dependency pairs is generated under /output/repositories_selected folder
+- Please find Temp folder which contains all the output jar files for the collected repo - https://liveunikoblenz-my.sharepoint.com/:u:/g/personal/karanjagad_live_uni-koblenz_de/EVYiwpXLGdZMjQCUmP5wM1cBWRtZMqQxLMb1EHLBDrSzQg?e=t3bupU 
 
 Findings of replication
 --------------------------------------------------------------------------------------------------------
@@ -46,7 +46,7 @@ Collecting all the repositories based on above input data criteria and then Pars
 
 ### Output delta:
 
-Selected repository results after changing parameters was similar for all dependency pairs except for one pair which is *org.apache.lucene_lucene-analyzers-common_org.apache.lucene_lucene-core*
+Selected repository results after changing parameters was similar for all dependency pairs except for one pair which is *org.apache.lucene_lucene-analyzers-common_org.apache.lucene_lucene-core* 
 The orginal table had 27 selected repositories but the reproduced table has only 9 repositories.(Reason can be the repository does not exist or during the collection program timed out/403 Forbiden Error)
 All the other 18 dependency pair showed similar selected repository count like the orginalt table
 
