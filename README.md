@@ -42,11 +42,11 @@ Findings of replication
 
 ### Process delta:
 
-
+Data collected with different attributes and tried to replicate the table but due to excess time consumtion of data collection the skip repositories could not be found
 
 ### Output delta:
 
-
+Selected repository result after changing parameters were similar 
 
 ### Implementation of replication:
 
