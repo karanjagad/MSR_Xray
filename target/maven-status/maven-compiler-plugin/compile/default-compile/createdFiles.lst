@@ -1,0 +1,9 @@
+de\uni_koblenz\gorjatschev\applyingapis\Parser.class
+de\uni_koblenz\gorjatschev\applyingapis\RepositoriesPicker.class
+de\uni_koblenz\gorjatschev\applyingapis\DependenciesDownloader.class
+de\uni_koblenz\gorjatschev\applyingapis\Application.class
+de\uni_koblenz\gorjatschev\applyingapis\ClassOrInterfaceSymbolResolver.class
+de\uni_koblenz\gorjatschev\applyingapis\DependenciesAllocator.class
+de\uni_koblenz\gorjatschev\applyingapis\DependenciesManager.class
+de\uni_koblenz\gorjatschev\applyingapis\RepositoryManager.class
+de\uni_koblenz\gorjatschev\applyingapis\Utils.class

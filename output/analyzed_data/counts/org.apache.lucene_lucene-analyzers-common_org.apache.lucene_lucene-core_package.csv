@@ -1,0 +1,10 @@
+repositoryName,org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-core,both
+senseidb/zoie,5,16,5
+dice-group/AGDISTIS,1,1,1
+weiboad/fiery,0,4,0
+DependencyTrack/dependency-track,0,1,0
+intuit/fuzzy-matcher,1,1,1
+dice-group/Palmetto,1,2,1
+ysc/word,1,3,1
+Stratio/cassandra-lucene-index,2,6,2
+javasoze/clue,0,6,0
