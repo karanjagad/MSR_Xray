@@ -18,7 +18,7 @@ Members:
 Baseline study:
 ---------------------------------------------------------------------------------------
 
-For the given Theisis  perform Data collection to reproduce table 4.7  and get similar output
+For the given Theisis perform Data collection to reproduce table 4.7 and get similar output
 
 ### Input data:
 
@@ -50,6 +50,7 @@ Selected repository results after changing parameters was similar for all depend
 The orginal table had 27 selected repositories but the reproduced table has only 9 repositories.(Reason can be the repository does not exist or during the collection program timed out/403 Forbiden Error)
 All the other 18 dependency pair showed similar selected repository count like the orginalt table
 
+
 ### Implementation of replication:
 
 -   Hardware requirements:
@@ -62,7 +63,7 @@ All the other 18 dependency pair showed similar selected repository count like t
     -   Python 3.9.6 (plotly==5.1.0, pyspark==3.1.2)
 -   Validation
     -   One can compare the above output folder with the original work, the reproduciblity is clearly noticable there.
-    -   One can directly run the python file under process/Repo_Selection_Count_for_DependencyPairs.py and check the desired output.
-    -   *User needs to be in  /output/repositeries_selected   folder before running the python code
+    -   One can directly run the python file  under process/Repo_Selection_Count_for_DependencyPairs.py and check the desired output in table generated.( *User needs to be in  /output/repositeries_selected   folder before running the python code )
+    -   The output table shows only the selected repository count and not the skipped repository
 -   Data
     -  Data replication have successfully generate the csv files listed in the output delta section, as well as a temp folder (uploaded in onedrive)containing the files required for the generation of the csv files.
