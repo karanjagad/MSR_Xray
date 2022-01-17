@@ -27,6 +27,8 @@ The java code aims at mining git repositories with following criteria
 -   A repository with 100 stars and 100 commits
 -   A repository with more than two contributors
 -   A repository with at least one source directory
+-   Dependency  Limit 25
+-   Files Limit 800
 
 ### Output data:
 
